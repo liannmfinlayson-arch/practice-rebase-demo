@@ -24,13 +24,14 @@ No new merge commit is created.
 #### main has commits A-B-C
 #### feature branched off at B and added D and E
 
+```` 
 git checkout main
 git merge feature
 
 History before merge:
-A---B---C (main)
+A---B---C           (main)
      \
-      D---E (feature)
+      D---E         (feature)
 
 History after merge (three-way merge:
 A---B---C-------F (main)
@@ -38,7 +39,7 @@ A---B---C-------F (main)
       D-------E (feature)
 
 Git creates a new merge commit (F) that combines the changes from both sides.
-
+````
 
 ## What is rebase?
 
@@ -46,6 +47,7 @@ Git creates a new merge commit (F) that combines the changes from both sides.
 Moves or “replays” commits from one branch on top of another to create a linear history.
 It doesn’t create a merge commit (unless conflicts appear).
 
+```` 
 git checkout feature
 git rebase main
 
@@ -56,3 +58,4 @@ A---B---C (main)
 
 After rebasing: 
 A---B---C---D'---E' (feature)
+````
