@@ -21,8 +21,8 @@ No new merge commit is created.
 
 
 ## Example: Three-way merge
-### main has commits A-B-C
-### feature branched off at B and added D and E
+#### main has commits A-B-C
+#### feature branched off at B and added D and E
 
 git checkout main
 git merge feature
