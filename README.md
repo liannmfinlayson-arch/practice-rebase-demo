@@ -59,3 +59,5 @@ A---B---C (main)
 After rebasing: 
 A---B---C---D'---E' (feature)
 ````
+
+##Other examples
