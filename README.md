@@ -60,4 +60,4 @@ After rebasing:
 A---B---C---D'---E' (feature)
 ````
 
-##Other examples
+## Other examples
